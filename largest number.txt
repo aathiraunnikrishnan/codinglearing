@@ -1,0 +1,9 @@
+a=int(input("enter a value"))
+b=int(input("enter a value"))
+c=int(input("enter a value"))
+if a>b and a>c:
+    print(f"all of these{a}is the largest value")
+elif b>a and b>c:
+    print(f"all of these{b}is the largest value")
+else:
+    print(f"all of these {c}is the largest value")
